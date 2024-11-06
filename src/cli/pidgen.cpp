@@ -93,6 +93,11 @@ BOOL CLI::PIDGEN2Generate(PIDGEN2 &p2)
     p2.info.Serial = options.serial;
     p2.info.isOEM = options.oem;
 
+    if (options.productCode == "OFFICE97")
+    {
+        p2.info.isOffice = true;
+    }
+
     std::string serial;
     p2.Generate(serial);
 

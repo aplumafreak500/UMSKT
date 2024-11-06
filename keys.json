@@ -980,6 +980,18 @@
         }
       }
     },
+    "OFFICE95": {
+      "name": "Office 95",
+      "meta": {
+        "type": "PIDGEN2"
+      }
+    },
+    "OFFICE97": {
+      "name": "Office 97",
+      "meta": {
+        "type": "PIDGEN2"
+      }
+    },
     "OFFICEC2K5": {
       "name": "Office Communicator 2005",
       "BINK": [
